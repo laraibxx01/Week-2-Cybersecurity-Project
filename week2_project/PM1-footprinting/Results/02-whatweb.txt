@@ -1,0 +1,22 @@
+WhatWeb Scan Results – networkwalks.com
+
+HTTP:
+301 Moved Permanently
+Apache
+IP: 192.232.216.135
+Redirect: https://networkwalks.com/
+
+HTTPS:
+200 OK
+Apache
+WordPress 7.1.4
+Bootstrap 7.1.4
+jQuery 3.7.1
+Google Tag Manager
+WordPress Download Manager 3.3.76
+HTML5
+Open Graph Protocol
+Email: info@networkwalks.com
+
+Conclusion:
+WhatWeb successfully identified the web server, content management system, JavaScript library, front-end framework and other technologies used by the website.

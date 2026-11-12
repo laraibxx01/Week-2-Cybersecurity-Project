@@ -1,0 +1,28 @@
+# PM5 – Network Scanning Commands
+
+## 1. Check IP Address
+```bash
+ip addr
+```
+
+## 2. Check Network and Gateway
+```bash
+ip route
+```
+
+## 3. Scan the Local Network
+```bash
+sudo nmap -sn -PR 192.168.18.0/24
+```
+
+## 4. Scan and Save Results
+```bash
+sudo nmap -sn -PR 192.168.18.0/24 -oN ~/week2-lan-scan.txt
+```
+
+## 5. View Saved Results
+```bash
+cat ~/week2-lan-scan.txt
+```
+
+**Note:** These commands were executed in Kali Linux terminal using Nmap. They were not executed through the Zenmap graphical interface.

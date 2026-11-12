@@ -1,0 +1,44 @@
+# PM1 – Footprinting Commands
+
+**Project:** Week 2 – Project Module 1  
+**Target Domain:** networkwalks.com  
+**Tools Used:** Kali Linux
+
+## 1. WHOIS
+```bash
+whois networkwalks.com
+```
+**Purpose:** Retrieves domain registration information, registrar details, and registration dates.
+
+## 2. NSLookup
+```bash
+nslookup networkwalks.com
+```
+**Purpose:** Retrieves DNS information and IP address records.
+
+## 3. DNSRecon
+```bash
+dnsrecon -d networkwalks.com
+```
+**Purpose:** Performs DNS reconnaissance to identify DNS records and related information.
+
+## 4. WhatWeb
+```bash
+whatweb networkwalks.com
+```
+Purpose: Identifies technologies and web server information used by the target website.
+
+## 5. cURL
+```bash
+curl -I https://networkwalks.com
+```
+**Purpose:** Retrieves HTTP response headers from the website.
+
+## 6. WAFW00F
+```bash
+wafw00f https://networkwalks.com
+```
+**Purpose:** Checks whether a Web Application Firewall (WAF) is protecting the website.
+
+## Note
+All activities were performed for authorized footprinting and reconnaissance as part of the internship assignment. Some tools may return connection errors or incomplete results depending on network availability.
